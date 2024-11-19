@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zap Quizzes</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Zap <span>Quizzes</span></div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#quizzes">Quizzes</a></li>
+                <li><a href="#create-quiz">Create Quiz</a></li>
+            </ul>
+        </nav>
+        <button class="btn-create">Create a Quiz</button>
+    </header>
+
+    <main class="main">
+        <section class="intro">
+            <h1>Unlock New Knowledge: Your Quiz Adventure Starts Here</h1>
+            <p>Browse our curated selection and discover quizzes you'll love</p>
+            <input type="text" placeholder="Search Quizzes..." class="search-bar">
+        </section>
+
+        <section id="quizzes" class="quizzes">
+            <div class="quiz-card">
+                <img src="geo.jpg" alt="Geopolitics">
+                <h3>Geopolitics Quiz</h3>
+                <p>Test your knowledge on global politics!</p>
+            </div>
+            <div class="quiz-card">
+                <img src="science.jpg" alt="Science">
+                <h3>Science Quiz</h3>
+                <p>Explore the wonders of science with this quiz.</p>
+            </div>
+            <div class="quiz-card">
+                <img src="history.jpg" alt="History">
+                <h3>History Quiz</h3>
+                <p>Delve into past events and learn history.</p>
+            </div>
+        </section>
+
+        <section id="dashboard" class="dashboard">
+            <h2>Dashboard</h2>
+            <div class="progress">
+                <p>Quizzes Completed: <span id="completed-quizzes">0</span></p>
+                <p>Quizzes In Progress: <span id="in-progress-quizzes">0</span></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2024 Zap Quizzes. All rights reserved.</p>
+    </footer>
+</body>
+</html>
